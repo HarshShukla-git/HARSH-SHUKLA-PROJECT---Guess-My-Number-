@@ -52,7 +52,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
   }
-
+   // The code written below can also be use but here to avoide the repetione of code is use i fuction and call it.
   //   // When guess is too high
   //  else if (guess > secretNumber) {
   //   if (score > 1) {
